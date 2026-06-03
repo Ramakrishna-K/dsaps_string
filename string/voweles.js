@@ -34,7 +34,7 @@ console.log(count)
 // Using Regular Expression and ternary operator
 let name = "hello";
 
-let match = name.match(/[aieou]/gi);
+let match = name.match(/[aeiou]/gi);
 let result = match ? match.length:0;
 console.log(result)
 
