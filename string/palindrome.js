@@ -1,13 +1,13 @@
 
 // palindrome using the reverse method and split
 
-// let name = "madam";
-// let reversed = name.split("").reverse().join("")
-// if(name == reversed){
-//     console.log(reversed +" palindrome");
-// }else{
-//     console.log(reversed + " not palindrome")
-// }
+let name = "madam";
+let reversed = name.split("").reverse().join("")
+if(name == reversed){
+    console.log(reversed +" palindrome");
+}else{
+    console.log(reversed + " not palindrome")
+}
 
 function checkPalindrome(str){
     let reversed = str.split("").reverse().join("");
